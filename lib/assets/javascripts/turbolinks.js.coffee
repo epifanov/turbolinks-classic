@@ -543,6 +543,7 @@ else
 #   Turbolinks.visit(url)
 #   Turbolinks.pagesCached()
 #   Turbolinks.pagesCached(20)
+#   Turbolinks.cacheCurrentPage()
 #   Turbolinks.enableTransitionCache()
 #   Turbolinks.allowLinkExtensions('md')
 #   Turbolinks.supported
@@ -550,6 +551,7 @@ else
 @Turbolinks = {
   visit,
   pagesCached,
+  cacheCurrentPage,
   enableTransitionCache,
   enableProgressBar,
   allowLinkExtensions: Link.allowExtensions,
